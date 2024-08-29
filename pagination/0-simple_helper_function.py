@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+""" Simple pagination module. """
+
 def index_range(page: int, page_size: int) -> tuple:
     """
     Calculate the start and end index for a pagination system.
